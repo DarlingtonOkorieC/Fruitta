@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.darlington.dokinta.LoginActivity">
+<LinearLayout
+    android:id="@+id/firstlay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:background="#df9e2e"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="180dp"
+    android:orientation="vertical"
+    >
+    
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:inputType="phone"
+        android:layout_marginLeft="7dp"
+        android:textSize="22sp"
+        android:hint="Phone Number"
+        android:text="08087854195"
+        />
+  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/secondlay"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/firstlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="#df9e2e"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="7dp"
+            android:textSize="22sp"
+            android:text="1234"
+            />
+
+    
+</LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/secondlay"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/signIn"
+        android:gravity="center"
+        android:text="Login"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+</RelativeLayout>

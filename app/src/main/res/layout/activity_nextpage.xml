@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.darlington.dokinta.Nextpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fruitta"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="#f2a117"
+            android:textSize="42sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make simple orders of delicious fruits"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:fontFamily="monospace"
+            android:textColor="#dfa94d"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fruitbag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnsignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f2a219"
+        android:text="Sign Up"
+        android:clickable="true"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+        <Button
+            android:id="@+id/btnlogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f2a219"
+            android:text="Login"
+            android:clickable="true"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/fruitbag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/livehealthy"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:textColor="#dfa94d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:text="Live healthy, get your daily fruits delivered to you"/>
+
+    </RelativeLayout>
+</RelativeLayout>

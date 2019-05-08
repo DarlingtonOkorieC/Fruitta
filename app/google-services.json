@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "743866866460",
+    "firebase_url": "https://dokintaapp.firebaseio.com",
+    "project_id": "dokintaapp",
+    "storage_bucket": "dokintaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743866866460:android:0a327d2d399abc8c",
+        "android_client_info": {
+          "package_name": "com.example.darlington.dokinta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743866866460-7vkqf0ur8m1p2f183sbb6dbq411r1au0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.darlington.dokinta",
+            "certificate_hash": "9cfb9b98d8a6bcd339f0cf53ce3a9a07bb3ef545"
+          }
+        },
+        {
+          "client_id": "743866866460-crb6860j36rhessi4flffqom5a35blac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSzm-2kjLamE-mCHpzT3CLy2npjBKZctk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743866866460-crb6860j36rhessi4flffqom5a35blac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
